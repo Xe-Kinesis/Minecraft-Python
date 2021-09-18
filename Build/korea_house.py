@@ -1,3 +1,4 @@
+#환경 설정
 import time
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
