@@ -1,3 +1,11 @@
+"""
+개발자 Comment 
+
+문 설치는 API 버그여서 문 설치는 불가 합니다.
+혹시 문 설치 방법을 알고 계신다면 Comment 부탁드립니다 (_ _)
+
+본 소스코드는 "Oriental of Longsiljang" 리소스 팩을 장착 후 실행해야 완벽하게 보입니다.
+"""
 #환경 설정
 import time
 from mcpi.minecraft import Minecraft
@@ -53,7 +61,6 @@ mc.setBlock(x + 11, y + 4, z + 3, 102)
 mc.setBlocks(x + 4, y + 4, z + 2, x + 5, y + 4, z + 2, 102)
 #문 설치 칸 확보
 mc.setBlocks(x + 6, y + 3, z + 8, x + 7, y + 4, z + 8, 0)
-mc.setBlock(x + 1, y + 2, z + 5, 193)
 
 #기와 세우기
 
