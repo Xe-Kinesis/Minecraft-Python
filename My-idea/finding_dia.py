@@ -1,6 +1,6 @@
 '''
 다이아 감지 봇
-알고리즘
+알고리즘 .
 '''
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
