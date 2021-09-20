@@ -14,7 +14,7 @@ mc.postToChat("Fiding now..")
 
 #y축 최대 감지 범위 : 69칸(변경 가능)
 for i in range(0, 70):
-    block_finder = mc.getBlock(x, y-i, z)
+    block_finder = mc.getBlock(x, y - i, z)
     bag.append(block_finder)
 
 
