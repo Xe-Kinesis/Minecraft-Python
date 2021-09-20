@@ -1,20 +1,18 @@
-from minecraftstuff import MinecraftShape
 from mcpi.minecraft import Minecraft
 from mcpi import block
-from time import sleep
+from minecraftstuff import MinecraftShape
 
-#Connect to minecraft
 mc = Minecraft.create()
-# get the players position
+
 pos = mc.player.getTilePos()
 
-#Using the Minecraft Shape API
-mcshape = MinecraftShape(mc, pos)
+myShape = MinecraftShape(mc, pos)
 
-# create a stone cube
-mcshape.setBlocks(-5, -5, -5, 5, 5, 5, block.STONE.id)
+# create a big cube
+myShape.setBlocks(-5, -5, -5, 5, 5, 5, block.WOOL.id, 5)
 
-# move it around
-for i in range(0,10):
-    mcshape.moveBy(1,0,1)
-    sleep(0.5)
+#move it 10 blocks up
+myShape.moveBy(0, 30, 0)
+
+#rotate it 45 degrees
+myShape.rotate(45, 0, 0)
