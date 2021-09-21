@@ -1,5 +1,6 @@
 '''
 다이아 감지 봇
+Developer : Glen
 '''
 #환경 설정
 from mcpi.minecraft import Minecraft
