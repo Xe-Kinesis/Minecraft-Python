@@ -11,7 +11,7 @@ import time
 bag = []
 x, y, z = mc.player.getPos()
 
-mc.postToChat("Fiding now..")
+mc.postToChat("Fiding now.. " + str(y))
 
 #y축 최대 감지 범위 : 69칸(변경 가능)
 for i in range(0, 70):
